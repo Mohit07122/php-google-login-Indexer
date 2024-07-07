@@ -1,12 +1,16 @@
+Aqui está o README atualizado para o seu projeto:
+
+---
+
 # Google Indexer PHP
 
 Este projeto em PHP facilita a indexação rápida de URLs no Google utilizando OAuth para autenticação. Ideal para automatizar o envio de URLs para indexação no Google Search Console.
 
-## Funcionalidades
+## Arquivos
 
-- Autenticação com OAuth para obter tokens de acesso.
-- Envio eficiente de múltiplas URLs para indexação.
-- Feedback detalhado sobre o resultado da operação de indexação.
+- `index.php`: Script principal que integra o OAuth do Google com a API de Indexação de Pesquisa para enviar URLs.
+- `OAuthGoogle.php`: Classe que gerencia a autenticação OAuth com o Google.
+- `UrlIndexer.php`: Classe que envia as URLs para indexação usando a API de Indexação de Pesquisa do Google.
 
 ## Configuração
 
@@ -34,3 +38,4 @@ Este projeto em PHP facilita a indexação rápida de URLs no Google utilizando 
 - Extensão cURL habilitada
 - Projeto configurado no Google Cloud Console
 - API de Indexação de Pesquisa (Google Web Search Indexing) ativada para o projeto
+
